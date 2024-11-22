@@ -33,8 +33,7 @@ Aplicación realizada en Flutter para Dispositivos Móviles, parte de la Unidad 
 |:-------------:|:---------------|
 | <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/main.png"  width="300" height="100" style="margin-bottom: 5px;"> |El archivo main.dart es el punto de entrada de la aplicación. Inicializa la aplicación con el widget MyApp, que configura el estado mediante Provider, aplica un tema personalizado definido en AppTheme, y establece la pantalla principal (ChatScreen). Esto asegura una gestión centralizada del estado y una interfaz consistente basada en Material Design. |
 | <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/apptheme.png"  width="300" height="100" style="margin-bottom: 5px;"> |AppTheme define un tema dinámico para la aplicación Flutter, permitiendo personalizar el esquema de colores basado en un índice. Utiliza Material Design 3 para ofrecer una experiencia visual uniforme.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatscreen.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatScreen es la pantalla principal del chat. Incluye una barra superior con un avatar y un título, y utiliza _ChatView para mostrar la conversación. Proporcion
-a una estructura básica para interactuar con los mensajes.|
+| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatscreen.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatScreen es la pantalla principal del chat. Incluye una barra superior con un avatar y un título, y utiliza _ChatView para mostrar la conversación. Proporciona una estructura básica para interactuar con los mensajes.|
 
 <h3> Practica 22 </h3>
 
@@ -50,10 +49,10 @@ a una estructura básica para interactuar con los mensajes.|
 
 | Captura | Descripción | 
 |:-------------:|:---------------|
-| <img src="https://github.com/user-attachments/assets/28580c72-ab84-4751-b099-ca3869a0af44"  width="300" height="100" style="margin-bottom: 5px;"> |YesNoModel actúa como modelo de datos para respuestas de tipo "sí" o "no". Permite la conversión a formatos JSON y su transformación en una entidad de dominio llamada Message.|
+| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/main/flutter_application_1/assets/yesnomodel.png"  width="300" height="100" style="margin-bottom: 5px;"> |YesNoModel actúa como modelo de datos para respuestas de tipo "sí" o "no". Permite la conversión a formatos JSON y su transformación en una entidad de dominio llamada Message.|
 | <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatprovider.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatProvider gestiona el estado del chat, incluyendo envío de mensajes, respuestas automáticas y actualizaciones de la interfaz.|
 | <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/getnoanswer.png"  width="300" height="100" style="margin-bottom: 5px;"> |GetYesNoAnswer conecta la API de yesno.wtf con la lógica de la aplicación. Procesa respuestas HTTP y las transforma en objetos internos para integrarlas al flujo del chat.|
-| <img src="https://github.com/user-attachments/assets/226e7ef8-7894-4dc0-88bc-f10f6539490c"  width="300" height="100" style="margin-bottom: 5px;"> |El método moveScrollToBottom asegura que los mensajes más recientes sean visibles mediante un desplazamiento automático, mejorando la experiencia del usuario.|
+| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/main/flutter_application_1/assets/movescrollbottom.png"  width="300" height="100" style="margin-bottom: 5px;"> |El método moveScrollToBottom asegura que los mensajes más recientes sean visibles mediante un desplazamiento automático, mejorando la experiencia del usuario.|
 
 ## Resultados
 <br>
