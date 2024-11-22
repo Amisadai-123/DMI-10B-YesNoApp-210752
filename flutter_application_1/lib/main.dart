@@ -12,11 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ChatProvider())
-      ],
+      providers: [ChangeNotifierProvider(create: (_) => ChatProvider())],
       child: MaterialApp(
-          title: 'Yes No App 210521',
+          title: 'Yes No App 210752',
           debugShowCheckedModeBanner: false,
           theme: AppTheme(selectedColor: 0).theme(),
           home: const ChatScreen()),
