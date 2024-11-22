@@ -24,37 +24,39 @@ Aplicación realizada en Flutter para Dispositivos Móviles, parte de la Unidad 
 ## Estructura de las carpetas 
 <br>
 
-![Estrucutra de las carpetas](https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/image.png)
+![Estructura de las carpetas](flutter_application_1/assets/image.png)
+
+
 
 <br>
 <h3> Practica 21 </h3>
 
 | Captura | Descripción | 
 |:-------------:|:---------------|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/main.png"  width="300" height="100" style="margin-bottom: 5px;"> |El archivo main.dart es el punto de entrada de la aplicación. Inicializa la aplicación con el widget MyApp, que configura el estado mediante Provider, aplica un tema personalizado definido en AppTheme, y establece la pantalla principal (ChatScreen). Esto asegura una gestión centralizada del estado y una interfaz consistente basada en Material Design. |
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/apptheme.png"  width="300" height="100" style="margin-bottom: 5px;"> |AppTheme define un tema dinámico para la aplicación Flutter, permitiendo personalizar el esquema de colores basado en un índice. Utiliza Material Design 3 para ofrecer una experiencia visual uniforme.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatscreen.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatScreen es la pantalla principal del chat. Incluye una barra superior con un avatar y un título, y utiliza _ChatView para mostrar la conversación. Proporciona una estructura básica para interactuar con los mensajes.|
+| <img src="flutter_application_1/assets/main.png"  width="300" height="100" style="margin-bottom: 5px;"> |El archivo main.dart es el punto de entrada de la aplicación. Inicializa la aplicación con el widget MyApp, que configura el estado mediante Provider, aplica un tema personalizado definido en AppTheme, y establece la pantalla principal (ChatScreen). Esto asegura una gestión centralizada del estado y una interfaz consistente basada en Material Design. |
+| <img src="flutter_application_1/assets/apptheme.png"  width="300" height="100" style="margin-bottom: 5px;"> |AppTheme define un tema dinámico para la aplicación Flutter, permitiendo personalizar el esquema de colores basado en un índice. Utiliza Material Design 3 para ofrecer una experiencia visual uniforme.|
+| <img src="flutter_application_1/assets/chatscreen.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatScreen es la pantalla principal del chat. Incluye una barra superior con un avatar y un título, y utiliza _ChatView para mostrar la conversación. Proporciona una estructura básica para interactuar con los mensajes.|
 
 <h3> Practica 22 </h3>
 
 | Captura | Descripción | 
 |:-------------:|:---------------|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/message.png"  width="300" height="100" style="margin-bottom: 5px;"> |_ChatView administra y muestra los mensajes en un ListView.builder, con burbujas diferenciadas según el remitente. Incluye un campo de texto para enviar nuevos mensajes.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/mymessagebubble.png"  width="300" height="100" style="margin-bottom: 5px;"> |MyMessageBubble estiliza los mensajes enviados por el usuario. Utiliza el color primario del tema como fondo y texto blanco para garantizar la legibilidad.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/hermessage.png"  width="300" height="100" style="margin-bottom: 5px;"> |OtherMessageBubble muestra mensajes de otros participantes en el chat. Utiliza un diseño limpio con un color secundario y márgenes adecuados para separar los mensajes.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/hermessage.png"  width="300" height="100" style="margin-bottom: 5px;"> |_ImageBubble muestra imágenes en el chat con bordes redondeados y un diseño responsivo. Incluye un indicador de carga para mejorar la experiencia de usuario.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/field.png"  width="300" height="100" style="margin-bottom: 5px;"> |MessageFieldBox ofrece un campo de texto interactivo para escribir y enviar mensajes. Incluye un botón de envío estilizado y manejo del foco para facilitar la interacción.|
+| <img src="flutter_application_1/assets/message.png"  width="300" height="100" style="margin-bottom: 5px;"> |_ChatView administra y muestra los mensajes en un ListView.builder, con burbujas diferenciadas según el remitente. Incluye un campo de texto para enviar nuevos mensajes.|
+| <img src="flutter_application_1/assets/mymessagebubble.png"  width="300" height="100" style="margin-bottom: 5px;"> |MyMessageBubble estiliza los mensajes enviados por el usuario. Utiliza el color primario del tema como fondo y texto blanco para garantizar la legibilidad.|
+| <img src="flutter_application_1/assets/hermessage.png"  width="300" height="100" style="margin-bottom: 5px;"> |OtherMessageBubble muestra mensajes de otros participantes en el chat. Utiliza un diseño limpio con un color secundario y márgenes adecuados para separar los mensajes.|
+| <img src="flutter_application_1/assets/hermessage.png"  width="300" height="100" style="margin-bottom: 5px;"> |_ImageBubble muestra imágenes en el chat con bordes redondeados y un diseño responsivo. Incluye un indicador de carga para mejorar la experiencia de usuario.|
+| <img src="flutter_application_1/assets/field.png"  width="300" height="100" style="margin-bottom: 5px;"> |MessageFieldBox ofrece un campo de texto interactivo para escribir y enviar mensajes. Incluye un botón de envío estilizado y manejo del foco para facilitar la interacción.|
 
 <h3> Practica 23 </h3>
 
 | Captura | Descripción | 
 |:-------------:|:---------------|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/main/flutter_application_1/assets/yesnomodel.png"  width="300" height="100" style="margin-bottom: 5px;"> |YesNoModel actúa como modelo de datos para respuestas de tipo "sí" o "no". Permite la conversión a formatos JSON y su transformación en una entidad de dominio llamada Message.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatprovider.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatProvider gestiona el estado del chat, incluyendo envío de mensajes, respuestas automáticas y actualizaciones de la interfaz.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/getnoanswer.png"  width="300" height="100" style="margin-bottom: 5px;"> |GetYesNoAnswer conecta la API de yesno.wtf con la lógica de la aplicación. Procesa respuestas HTTP y las transforma en objetos internos para integrarlas al flujo del chat.|
-| <img src="https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/main/flutter_application_1/assets/movescrollbottom.png"  width="300" height="100" style="margin-bottom: 5px;"> |El método moveScrollToBottom asegura que los mensajes más recientes sean visibles mediante un desplazamiento automático, mejorando la experiencia del usuario.|
+| <img src="flutter_application_1/assets/yesnomodel.png"  width="300" height="100" style="margin-bottom: 5px;"> |YesNoModel actúa como modelo de datos para respuestas de tipo "sí" o "no". Permite la conversión a formatos JSON y su transformación en una entidad de dominio llamada Message.|
+| <img src="flutter_application_1/assets/chatprovider.png"  width="300" height="100" style="margin-bottom: 5px;"> |ChatProvider gestiona el estado del chat, incluyendo envío de mensajes, respuestas automáticas y actualizaciones de la interfaz.|
+| <img src="flutter_application_1/assets/getnoanswer.png"  width="300" height="100" style="margin-bottom: 5px;"> |GetYesNoAnswer conecta la API de yesno.wtf con la lógica de la aplicación. Procesa respuestas HTTP y las transforma en objetos internos para integrarlas al flujo del chat.|
+| <img src="flutter_application_1/assets/movescrollbottom.png"  width="300" height="100" style="margin-bottom: 5px;"> |El método moveScrollToBottom asegura que los mensajes más recientes sean visibles mediante un desplazamiento automático, mejorando la experiencia del usuario.|
 
 ## Resultados
 <br>
 
-![Resultado](https://github.com/Amisadai-123/DMI-10B-YesNoApp-210752/blob/readme/flutter_application_1/assets/chatami.jpg)
+![Resultado](flutter_application_1/assets/chatami.jpg)
